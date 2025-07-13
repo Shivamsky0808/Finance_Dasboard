@@ -25,18 +25,12 @@ Finance Dashboard is a web application for tracking income and expenses over tim
    cd Finance_Dasboard
    ```
 
-2. **Create a virtual environment and activate it:**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows use `venv\\Scripts\\activate`
-   ```
-
-3. **Install dependencies:**
+2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Set up environment variables:**
+3. **Set up environment variables:**
    Create a `.env` file in the project root:
    ```plaintext
    SECRET_KEY=your-secret-key-here-change-in-production
@@ -67,7 +61,3 @@ Finance Dashboard is a web application for tracking income and expenses over tim
 - **Backend:** Flask, Flask-SQLAlchemy, Flask-Login, Flask-WTF
 - **Frontend:** Bootstrap, Chart.js, JavaScript
 - **Database:** SQLite (default)
-
-## License
-
-This project is licensed under the MIT License.
