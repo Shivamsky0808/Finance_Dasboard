@@ -30,15 +30,6 @@ Finance Dashboard is a web application for tracking income and expenses over tim
    pip install -r requirements.txt
    ```
 
-3. **Set up environment variables:**
-   Create a `.env` file in the project root:
-   ```plaintext
-   SECRET_KEY=your-secret-key-here-change-in-production
-   DATABASE_URL=sqlite:///finance_dashboard.db
-   FLASK_ENV=development
-   FLASK_DEBUG=True
-   ```
-
 ## Running the Application
 
 - Run the application with:
@@ -61,3 +52,4 @@ Finance Dashboard is a web application for tracking income and expenses over tim
 - **Backend:** Flask, Flask-SQLAlchemy, Flask-Login, Flask-WTF
 - **Frontend:** Bootstrap, Chart.js, JavaScript
 - **Database:** SQLite (default)
+
